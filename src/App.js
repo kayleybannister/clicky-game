@@ -1,10 +1,12 @@
 // Has to be imported for every JS file
 import React from "react";
 import Images from "./components/Images";
+import Scores from "./components/Scores";
 
 function App() {
-  //need it to return an image when selected?
   return <Images />;
+  return <Scores />;
+
 }
 
 export default App;
