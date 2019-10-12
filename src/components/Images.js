@@ -1,8 +1,11 @@
 import React from "react";
 
-function Images(props) {
+function Images() {
   return (
-    <img className="image-group" />
+    <div>
+      <h2>Images Will Be Shown Below</h2>
+    <img className="image-group" alt=""></img>
+    </div>
   );
 }
 
