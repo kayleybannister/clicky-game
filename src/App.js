@@ -4,7 +4,7 @@ import Images from "./components/Images";
 
 function App() {
   //need it to return an image when selected?
-  return <Image />;
+  return <Images />;
 }
 
 export default App;
