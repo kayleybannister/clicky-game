@@ -1,12 +1,9 @@
 import React from "react";
 
-function List(props) {
+function Images(props) {
   return (
-    <ul className="list-group">
-      Using the map method, render one li element displaying the text property of each grocery
-      object.
-    </ul>
+    <img className="image-group" />
   );
 }
 
-export default List;
+export default Images;

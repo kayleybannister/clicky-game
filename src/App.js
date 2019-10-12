@@ -1,41 +1,10 @@
+// Has to be imported for every JS file
 import React from "react";
-import List from "./components/List";
-
-const groceries = [
-  {
-    id: 1,
-    name: "Milk",
-    purchased: true
-  },
-  {
-    id: 2,
-    name: "Eggs",
-    purchased: true
-  },
-  {
-    id: 3,
-    name: "Cheese",
-    purchased: false
-  },
-  {
-    id: 4,
-    name: "Cake Mix",
-    purchased: false
-  },
-  {
-    id: 5,
-    name: "Carrots",
-    purchased: false
-  },
-  {
-    id: 6,
-    name: "Juice",
-    purchased: true
-  }
-];
+import Images from "./components/Images";
 
 function App() {
-  return <List groceries={groceries} />;
+  //need it to return an image when selected?
+  return <Image />;
 }
 
 export default App;
